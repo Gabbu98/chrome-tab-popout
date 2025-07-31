@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Popout Tab",
+  "version": "1.0",
+  "description": "Pops out the current tab into a popup window.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Popout This Tab",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
